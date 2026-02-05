@@ -5,3 +5,4 @@ In this project I create a music recomendation tool, which considers initial mus
 
 ## The program design:
 ![ProgramDesign](images/programDesign.png)
+
