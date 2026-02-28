@@ -10,11 +10,9 @@ def load_data() -> dict:
 # Get the first input, the genre
 def get_genre():
     genres = ["pop", "rock", "hiphop", "brazilian"]
-
     print("Select a genre:")
     for i, genre in enumerate(genres, 1):
         print(f"{i}) {genre.title()}")
-    
     while True:
         try:
             choice = int(input("Choice: "))
@@ -40,7 +38,6 @@ def select_songs(tracks: list):
     print("\nChoose songs(0 to finish):")
     for i, song in enumerate(tracks, 1):
         print(f"{i}) {song['name']} ({song['artist']})")
-
     while True:
         try:
             choice = int(input("Choice: "))
@@ -53,18 +50,16 @@ def select_songs(tracks: list):
     return selected
 
 
-def main():
+def command_line_interface():
     print("=== Music Tool Recommender ===")
-
     data = load_data()
     genre = get_genre()
     tracks = filter_by_genre(data, genre)
     selected = select_songs(tracks)
-
     print("\nYou selected:")
-    for song in selected:
-        print(f"- {song['name']} ({song['artist']})")
+    for i, song in enumerate(selected, 1):
+        print(f"{i} - {song['name']} ({song['artist']})")
 
 
 if __name__ == "__main__":
-    main()
+    command_line_interface()
