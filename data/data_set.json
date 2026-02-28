@@ -1,0 +1,542 @@
+{
+	"track_001": {
+	"name": "Ain't No Sunshine",
+	"artist": "Bill Withers",
+	"genre": "soul",
+	"year": 1971
+	},
+	"track_002": {
+	"name": "Mas Que Nada",
+	"artist": "Jorge Ben",
+	"genre": "brazilian",
+	"year": 1963
+	},
+	"track_003": {
+	"name": "Isn't She Lovely",
+	"artist": "Stevie Wonder",
+	"genre": "soul",
+	"year": 1976
+	},
+	"track_004": {
+	"name": "Let's Stay Together",
+	"artist": "Al Green",
+	"genre": "soul",
+	"year": 1972
+	},
+	"track_005": {
+	"name": "Use Me",
+	"artist": "Bill Withers",
+	"genre": "soul",
+	"year": 1972
+	},
+	"track_006": {
+	"name": "Superstition",
+	"artist": "Stevie Wonder",
+	"genre": "funk",
+	"year": 1972
+	},
+	"track_007": {
+	"name": "Sex Machine",
+	"artist": "James Brown",
+	"genre": "funk",
+	"year": 1970
+	},
+	"track_008": {
+	"name": "What's Going On",
+	"artist": "Marvin Gaye",
+	"genre": "soul",
+	"year": 1971
+	},
+	"track_009": {
+	"name": "Lovely Day",
+	"artist": "Bill Withers",
+	"genre": "soul",
+	"year": 1977
+	},
+	"track_010": {
+	"name": "Rock With You",
+	"artist": "Michael Jackson",
+	"genre": "disco",
+	"year": 1979
+	},
+	"track_011": {
+	"name": "September",
+	"artist": "Earth, Wind & Fire",
+	"genre": "disco",
+	"year": 1978
+	},
+	"track_012": {
+	"name": "Get Lucky",
+	"artist": "Daft Punk",
+	"genre": "funk",
+	"year": 2013
+	},
+	"track_013": {
+	"name": "Back to Black",
+	"artist": "Amy Winehouse",
+	"genre": "soul",
+	"year": 2006
+	},
+	"track_014": {
+	"name": "Rehab",
+	"artist": "Amy Winehouse",
+	"genre": "soul",
+	"year": 2006
+	},
+	"track_015": {
+	"name": "Valerie",
+	"artist": "Amy Winehouse",
+	"genre": "soul",
+	"year": 2007
+	},
+	"track_016": {
+	"name": "Stay With Me",
+	"artist": "Sam Smith",
+	"genre": "pop",
+	"year": 2014
+	},
+	"track_017": {
+	"name": "Thinking Out Loud",
+	"artist": "Ed Sheeran",
+	"genre": "pop",
+	"year": 2014
+	},
+	"track_018": {
+	"name": "Just the Two of Us",
+	"artist": "Grover Washington Jr.",
+	"genre": "jazz",
+	"year": 1981
+	},
+	"track_019": {
+	"name": "So What",
+	"artist": "Miles Davis",
+	"genre": "jazz",
+	"year": 1959
+	},
+	"track_020": {
+	"name": "Take Five",
+	"artist": "The Dave Brubeck Quartet",
+	"genre": "jazz",
+	"year": 1959
+	},
+	"track_021": {
+	"name": "Feeling Good",
+	"artist": "Nina Simone",
+	"genre": "jazz",
+	"year": 1965
+	},
+	"track_022": {
+	"name": "Georgia on My Mind",
+	"artist": "Ray Charles",
+	"genre": "soul",
+	"year": 1960
+	},
+	"track_023": {
+	"name": "Hotel California",
+	"artist": "Eagles",
+	"genre": "rock",
+	"year": 1976
+	},
+	"track_024": {
+	"name": "Dream On",
+	"artist": "Aerosmith",
+	"genre": "rock",
+	"year": 1973
+	},
+	"track_025": {
+	"name": "Come Together",
+	"artist": "The Beatles",
+	"genre": "rock",
+	"year": 1969
+	},
+	"track_026": {
+	"name": "Purple Haze",
+	"artist": "Jimi Hendrix",
+	"genre": "rock",
+	"year": 1967
+	},
+	"track_027": {
+	"name": "Respect",
+	"artist": "Aretha Franklin",
+	"genre": "soul",
+	"year": 1967
+	},
+	"track_028": {
+	"name": "I Got You (I Feel Good)",
+	"artist": "James Brown",
+	"genre": "funk",
+	"year": 1965
+	},
+	"track_029": {
+	"name": "No Woman No Cry",
+	"artist": "Bob Marley",
+	"genre": "reggae",
+	"year": 1974
+	},
+	"track_030": {
+	"name": "Redemption Song",
+	"artist": "Bob Marley",
+	"genre": "reggae",
+	"year": 1980
+	},
+	"track_031": {
+	"name": "Three Little Birds",
+	"artist": "Bob Marley",
+	"genre": "reggae",
+	"year": 1977
+	},
+	"track_032": {
+	"name": "Trem das Onze",
+	"artist": "Adoniran Barbosa",
+	"genre": "brazilian",
+	"year": 1964
+	},
+	"track_033": {
+	"name": "Garota de Ipanema",
+	"artist": "Tom Jobim",
+	"genre": "brazilian",
+	"year": 1962
+	},
+	"track_034": {
+	"name": "País Tropical",
+	"artist": "Jorge Ben",
+	"genre": "brazilian",
+	"year": 1969
+	},
+	"track_035": {
+	"name": "Samba de Uma Nota Só",
+	"artist": "Tom Jobim",
+	"genre": "brazilian",
+	"year": 1960
+	},
+	"track_036": {
+	"name": "Clocks",
+	"artist": "Coldplay",
+	"genre": "rock",
+	"year": 2002
+	},
+	"track_037": {
+	"name": "Viva La Vida",
+	"artist": "Coldplay",
+	"genre": "rock",
+	"year": 2008
+	},
+	"track_038": {
+	"name": "Rolling in the Deep",
+	"artist": "Adele",
+	"genre": "pop",
+	"year": 2010
+	},
+	"track_039": {
+	"name": "Shape of You",
+	"artist": "Ed Sheeran",
+	"genre": "pop",
+	"year": 2017
+	},
+	"track_040": {
+	"name": "Blinding Lights",
+	"artist": "The Weeknd",
+	"genre": "pop",
+	"year": 2019
+	},
+	"track_041": {
+	"name": "Uptown Funk",
+	"artist": "Mark Ronson",
+	"genre": "pop",
+	"year": 2014
+	},
+	"track_042": {
+	"name": "Treasure",
+	"artist": "Bruno Mars",
+	"genre": "pop",
+	"year": 2013
+	},
+	"track_043": {
+	"name": "Locked Out of Heaven",
+	"artist": "Bruno Mars",
+	"genre": "pop",
+	"year": 2012
+	},
+	"track_044": {
+	"name": "Kiss",
+	"artist": "Prince",
+	"genre": "funk",
+	"year": 1986
+	},
+	"track_045": {
+	"name": "Purple Rain",
+	"artist": "Prince",
+	"genre": "rock",
+	"year": 1984
+	},
+	"track_046": {
+	"name": "Billie Jean",
+	"artist": "Michael Jackson",
+	"genre": "pop",
+	"year": 1982
+	},
+	"track_047": {
+	"name": "Smooth Operator",
+	"artist": "Sade",
+	"genre": "pop",
+	"year": 1984
+	},
+	"track_048": {
+	"name": "Ordinary People",
+	"artist": "John Legend",
+	"genre": "rock",
+	"year": 2004
+	},
+	"track_049": {
+	"name": "Creep",
+	"artist": "Radiohead",
+	"genre": "rock",
+	"year": 1992
+	},
+	"track_050": {
+	"name": "Seven Nation Army",
+	"artist": "The White Stripes",
+	"genre": "rock",
+	"year": 2003
+	},
+	"track_051": {
+  	"name": "Crazy",
+  	"artist": "Gnarls Barkley",
+  	"genre": "soul",
+  	"year": 2006
+	},
+	"track_052": {
+	"name": "Hey Ya!",
+	"artist": "OutKast",
+	"genre": "pop",
+	"year": 2003
+	},
+	"track_053": {
+	"name": "Hips Don't Lie",
+	"artist": "Shakira",
+	"genre": "pop",
+	"year": 2006
+	},
+	"track_054": {
+	"name": "Mr. Brightside",
+	"artist": "The Killers",
+	"genre": "rock",
+	"year": 2003
+	},
+	"track_055": {
+	"name": "Boulevard of Broken Dreams",
+	"artist": "Green Day",
+	"genre": "rock",
+	"year": 2004
+	},
+	"track_056": {
+	"name": "Drop It Like It's Hot",
+	"artist": "Snoop Dogg",
+	"genre": "hiphop",
+	"year": 2004
+	},
+	"track_057": {
+	"name": "Gold Digger",
+	"artist": "Kanye West",
+	"genre": "hiphop",
+	"year": 2005
+	},
+	"track_058": {
+	"name": "Umbrella",
+	"artist": "Rihanna",
+	"genre": "pop",
+	"year": 2007
+	},
+	"track_059": {
+	"name": "Viva La Vida",
+	"artist": "Coldplay",
+	"genre": "rock",
+	"year": 2008
+	},
+	"track_060": {
+	"name": "Single Ladies",
+	"artist": "Beyoncé",
+	"genre": "pop",
+	"year": 2008
+	},
+	"track_061": {
+	"name": "Rolling in the Deep",
+	"artist": "Adele",
+	"genre": "pop",
+	"year": 2010
+	},
+	"track_062": {
+	"name": "Run the World (Girls)",
+	"artist": "Beyoncé",
+	"genre": "pop",
+	"year": 2011
+	},
+	"track_063": {
+	"name": "Take Care",
+	"artist": "Drake",
+	"genre": "hiphop",
+	"year": 2011
+	},
+	"track_064": {
+	"name": "Somebody That I Used to Know",
+	"artist": "Gotye",
+	"genre": "pop",
+	"year": 2011
+	},
+	"track_065": {
+	"name": "Get Lucky",
+	"artist": "Daft Punk",
+	"genre": "pop",
+	"year": 2013
+	},
+	"track_066": {
+	"name": "Royals",
+	"artist": "Lorde",
+	"genre": "pop",
+	"year": 2013
+	},
+	"track_067": {
+	"name": "Uptown Funk",
+	"artist": "Mark Ronson",
+	"genre": "funk",
+	"year": 2014
+	},
+	"track_068": {
+	"name": "Thinking Out Loud",
+	"artist": "Ed Sheeran",
+	"genre": "pop",
+	"year": 2014
+	},
+	"track_069": {
+	"name": "Blinding Lights",
+	"artist": "The Weeknd",
+	"genre": "pop",
+	"year": 2019
+	},
+	"track_070": {
+	"name": "bad guy",
+	"artist": "Billie Eilish",
+	"genre": "pop",
+	"year": 2019
+	},
+	"track_071": {
+	"name": "Levitating",
+	"artist": "Dua Lipa",
+	"genre": "pop",
+	"year": 2020
+	},
+	"track_072": {
+	"name": "Save Your Tears",
+	"artist": "The Weeknd",
+	"genre": "pop",
+	"year": 2020
+	},
+	"track_073": {
+	"name": "Watermelon Sugar",
+	"artist": "Harry Styles",
+	"genre": "pop",
+	"year": 2020
+	},
+	"track_074": {
+	"name": "Peaches",
+	"artist": "Justin Bieber",
+	"genre": "pop",
+	"year": 2021
+	},
+	"track_075": {
+	"name": "Stay",
+	"artist": "The Kid LAROI",
+	"genre": "pop",
+	"year": 2021
+	},
+	"track_076": {
+	"name": "As It Was",
+	"artist": "Harry Styles",
+	"genre": "pop",
+	"year": 2022
+	},
+	"track_077": {
+	"name": "About Damn Time",
+	"artist": "Lizzo",
+	"genre": "pop",
+	"year": 2022
+	},
+	"track_078": {
+	"name": "Kill Bill",
+	"artist": "SZA",
+	"genre": "pop",
+	"year": 2022
+	},
+	"track_079": {
+	"name": "Flowers",
+	"artist": "Miley Cyrus",
+	"genre": "pop",
+	"year": 2023
+	},
+	"track_080": {
+	"name": "Anti-Hero",
+	"artist": "Taylor Swift",
+	"genre": "pop",
+	"year": 2022
+	},
+	"track_081": {
+	"name": "Paint The Town Red",
+	"artist": "Doja Cat",
+	"genre": "hiphop",
+	"year": 2023
+	},
+	"track_082": {
+	"name": "Calm Down",
+	"artist": "Rema",
+	"genre": "pop",
+	"year": 2022
+	},
+	"track_083": {
+	"name": "Industry Baby",
+	"artist": "Lil Nas X",
+	"genre": "hiphop",
+	"year": 2021
+	},
+	"track_084": {
+	"name": "Circles",
+	"artist": "Post Malone",
+	"genre": "pop",
+	"year": 2019
+	},
+	"track_085": {
+	"name": "drivers license",
+	"artist": "Olivia Rodrigo",
+	"genre": "pop",
+	"year": 2021
+	},
+	"track_086": {
+	"name": "Take Me to Church",
+	"artist": "Hozier",
+	"genre": "rock",
+	"year": 2013
+	},
+	"track_087": {
+	"name": "Seven",
+	"artist": "Jung Kook",
+	"genre": "pop",
+	"year": 2023
+	},
+	"track_088": {
+	"name": "good 4 u",
+	"artist": "Olivia Rodrigo",
+	"genre": "rock",
+	"year": 2021
+	},
+	"track_089": {
+	"name": "DNA",
+	"artist": "Kendrick Lamar",
+	"genre": "hiphop",
+	"year": 2017
+	},
+	"track_090": {
+	"name": "HUMBLE.",
+	"artist": "Kendrick Lamar",
+	"genre": "hiphop",
+	"year": 2017
+	}
+}

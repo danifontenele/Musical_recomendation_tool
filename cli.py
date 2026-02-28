@@ -1,53 +1,69 @@
-def get_genre() -> int:
-    genre = int(input("Select the genre you're looking for:\n"
-                      "1) Pop\n"
-                      "2) Rock\n"
-                      "3) Hip-hop\n"))
-    return genre
+import json
+
+# function that read("r") and load the json file to return it as a dictionary
+def load_data() -> dict:
+    with open("data/data_set.json", "r") as f:
+        data = json.load(f)
+    return data
 
 
-def get_pop_list() -> list:
-    song = None
-    song_list = []
-    while song != 21:
-        song = int(input(
-                        "Choose the songs you like in this list:\n"
-                        "1) Hotline Bling(Drake)\n"
-                        "2) Pumped Up Kicks(Foster the people)\n"
-                        "3) What you know(Two Door Cinema Club)\n"
-                        "4) Timeless(The Weeknd)\n"
-                        "5) One Dance(Drake)\n"
-                        "6) Locked Out Of Heaven(Bruno Mars)\n"
-                        "7) Somebody that I used to know(Gotye)\n"
-                        "8) Memories(David Guetta)\n"
-                        "9) Can't feel my face(The weeknd)\n"
-                        "10) Paradise(Cold Play)\n"
-                        "11) Feel so close - Calvin Harris\n"
-                        "12) Love on the brain(Rihanna)\n"
-                        "13) Riptide(Vance Joy)\n"
-                        "14) Kiss me more(Doja Cat)\n"
-                        "15) Get Lucky(Daft Punk)\n"
-                        "16) Messy(Lola Young)\n"
-                        "17) Work(Rihanna)\n"
-                        "18) Birds Of a Feather(Billie Eilish)\n"
-                        "19) Adore You(Harry Styles)\n"
-                        "20) Espresso(Sabrina Carpenter)\n"
-                        "21) Done\n"))
-        # 3) Get the answer and save it into a list
-        song_list.append(song)
-    return song_list
+# Get the first input, the genre
+def get_genre():
+    genres = ["pop", "rock", "hiphop", "brazilian"]
+
+    print("Select a genre:")
+    for i, genre in enumerate(genres, 1):
+        print(f"{i}) {genre.title()}")
+    
+    while True:
+        try:
+            choice = int(input("Choice: "))
+            if 1 <= choice and choice <= len(genres):
+                return genres[choice - 1] 
+        except ValueError:
+            pass
+        print("invalid option, try again!")
 
 
-# Main calls all other functions
-def main() -> None:
-    print("=== Music Tool Recomender ===")
-    # 1) Show a numbered list of genres to the user
+# Select the songs with the same choosen genre among data_set dict options
+def filter_by_genre(data: dict, genre: str):
+    tracks = []
+    for track in data.values():
+        if track["genre"] == genre:
+            tracks.append(track)
+    return tracks
+
+
+# Show the songs with that genre and ask for a selection by the user
+def select_songs(tracks: list):
+    selected =[]
+    print("\nChoose songs(0 to finish):")
+    for i, song in enumerate(tracks, 1):
+        print(f"{i}) {song['name']} ({song['artist']})")
+
+    while True:
+        try:
+            choice = int(input("Choice: "))
+            if choice == 0:
+                break
+            if choice >= 1 and choice <= len(tracks):
+                selected.append(tracks[choice - 1])
+        except ValueError:
+            print("invalid option, try again!")
+    return selected
+
+
+def main():
+    print("=== Music Tool Recommender ===")
+
+    data = load_data()
     genre = get_genre()
-    # 2) Show a numbered list of musics to the user(1 list per genre choosen)
-    if genre == 1:
-        song_list = get_pop_list()
-    print(f"Choosen ids:\n{song_list}")
-    # 4) Use the ids
+    tracks = filter_by_genre(data, genre)
+    selected = select_songs(tracks)
+
+    print("\nYou selected:")
+    for song in selected:
+        print(f"- {song['name']} ({song['artist']})")
 
 
 if __name__ == "__main__":
