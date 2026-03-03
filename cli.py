@@ -1,8 +1,9 @@
 import json
 
+
 # function that read("r") and load the json file to return it as a dictionary
 def load_data() -> dict:
-    with open("data/data_set.json", "r") as f:
+    with open("data_set.json", "r") as f:
         data = json.load(f)
     return data
 
@@ -34,8 +35,8 @@ def filter_by_genre(data: dict, genre: str):
 
 # Show the songs with that genre and ask for a selection by the user
 def select_songs(tracks: list):
-    selected =[]
-    print("\nChoose songs(0 to finish):")
+    selected = []
+    print("\nChoose songs you like(0 to finish):")
     for i, song in enumerate(tracks, 1):
         print(f"{i}) {song['name']} ({song['artist']})")
     while True:
@@ -50,7 +51,7 @@ def select_songs(tracks: list):
     return selected
 
 
-def command_line_interface():
+def command_line_interface() -> list:
     print("=== Music Tool Recommender ===")
     data = load_data()
     genre = get_genre()
@@ -59,7 +60,8 @@ def command_line_interface():
     print("\nYou selected:")
     for i, song in enumerate(selected, 1):
         print(f"{i} - {song['name']} ({song['artist']})")
+    return selected
 
 
-if __name__ == "__main__":
-    command_line_interface()
+""" if __name__ == "__main__":
+    command_line_interface() """
