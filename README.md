@@ -1,20 +1,29 @@
-*This is a personal project to develop python skills by Carlos Alvares.
-# music_recomendation_tool
+*This is a personal project to simulate a simple music recommendation engine by Carlos Alvares.
+# music_recommendation_tool
 
 ## Description
-In this project I create a music recomender tool, which considers initial music references and user prefered genres to return to the user a list of recommended tracks.
+This project implements a simple content-based music recommendation engine.
+The system analyzes user-selected reference tracks and preferred genres to identify similar songs based on artist, genre and decade similarity.
+
+The goal is to simulate a simplified recommendation pipeline similar to those used in music streaming platforms.
 
 ### Goal
-To output the best list of recommended songs according to the user profile which consists in choosen genres and favorite songs.
+To output the best list of recommended songs according to the user profile which consists in chosen genres and favorite songs.
 
-### The challenge
-- Get the genre and the favorite songs using a CLI.
-- Set this data to be used by the engine.
-- Build an engine that order the data_set by points.
-- Create a list with the top tracks.
-- Output this list.
+### The challenges and solutions
+• Cold start problem  
+Since no listening history is available in a CLI environment,
+the system uses user-selected reference tracks to infer preferences.
 
-### The algorithm
+• Feature extraction  
+Artists and decades are extracted from the selected tracks and stored
+in sets to allow efficient similarity checks.
+
+• Recommendation scoring  
+Tracks receive points based on three similarity signals:
+artist match, genre match and decade match.
+
+## System Design
 
 ### Full program flow:
 ```
@@ -35,3 +44,25 @@ top N recomendações
 ### Flow explained:
 ![ProgramDesign](images/programDesign.png)
 
+## The algorithm
+For each track in the dataset:
+
+1. Initialize score = 0
+2. If track genre matches the user's preferred genre → add points
+3. If track artist matches one of the reference artists → add points
+4. If track decade matches one of the reference decades → add points
+
+Tracks are then ranked by score and the top N recommendations are returned.
+
+## Example run
+```
+User input
+Genre: Pop
+Reference tracks:
+- Blinding Lights
+- One dance
+
+Recommendations:
+1. Save your tears
+2. Levitating
+3. Get Lucky
