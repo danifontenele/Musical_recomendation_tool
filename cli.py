@@ -9,7 +9,7 @@ def load_data() -> dict:
 
 
 # Get the first input, the genre
-def get_genre():
+def get_genre() -> str:
     genres = ["pop", "rock", "hiphop", "brazilian"]
     print("Select a genre:")
     for i, genre in enumerate(genres, 1):
@@ -18,7 +18,7 @@ def get_genre():
         try:
             choice = int(input("Choice: "))
             if 1 <= choice and choice <= len(genres):
-                return genres[choice - 1] 
+                return genres[choice - 1]
         except ValueError:
             pass
         print("invalid option, try again!")
@@ -34,7 +34,7 @@ def filter_by_genre(data: dict, genre: str):
 
 
 # Show the songs with that genre and ask for a selection by the user
-def select_songs(tracks: list):
+def select_songs(tracks: list) -> list:
     selected = []
     print("\nChoose songs you like(0 to finish):")
     for i, song in enumerate(tracks, 1):
@@ -57,10 +57,7 @@ def command_line_interface() -> list:
     genre = get_genre()
     tracks = filter_by_genre(data, genre)
     selected = select_songs(tracks)
-    print("\nYou selected:")
-    for i, song in enumerate(selected, 1):
-        print(f"{i} - {song['name']} ({song['artist']})")
-    return selected
+    return genre, selected
 
 
 """ if __name__ == "__main__":

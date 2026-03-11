@@ -1,10 +1,12 @@
 import cli
+import input_profile
 import engine
 
 
 def main():
-    selected_list = cli.command_line_interface()
-    engine.engine(selected_list)
+    genre, selected_list = cli.command_line_interface()
+    profile = input_profile.input_profile(selected_list, genre)
+    engine.engine(profile)
 
 
 if __name__ == "__main__":
